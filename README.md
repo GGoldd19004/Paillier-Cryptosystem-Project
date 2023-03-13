@@ -1,1 +1,3 @@
 # Paillier-Cryptosystem-Project
+
+  With assistance from Professor Taeho Jung from the University of Notre Dame, using socket and the Python's Paillier cryptosystem library, I have created program where a client enters 3 numbers that the program encrypts, serializes, and sends to the server. The server then receives the serialized data, deserializes it, and enters the encrypted numbers into a linear regression equation. Then, the server receives an encrypted output from the equation, serializes it, and sends it back to the client. The client's program will then deserialize the data, receive the encrpyted output, and decrypt it. It is essentially a very secure linear regression calculator.
